@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="/js/script.js"></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/pple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+  
+  
+  
+    <title>Tech Forum</title>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a href="#default" class="navbar-brand">Radiant Tech Forums</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="forums.html">Forums</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+          </ul>
+          <form action="search-results.html" method="get" class="search-bar-container d-flex">
+            <input type="text" name="q" class="form-control me-2" placeholder="Search...">
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+</head>
+<body>
+    
+
+    
+    
+    
+  <footer>
+          <div class="contact-info">
+        <h3>Contact Us</h3>
+        <p>Email: info@example.com</p>
+      </div>
+      <div class="social-media">
+        <h3>Follow Us</h3>
+        <a href="https://www.facebook.com/YourPageOrProfile">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+    <div class="legal-links">
+      <a href="#" onclick="showTermsPopup()">Terms of Service</a>
+      <a href="privacypolicies.html">Privacy Policy</a>
+    </div>
+    <div id="terms-popup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('terms-popup')">&times;</span>
+          <h2>Terms and Conditions</h2>
+         <p>We do not allow the following in our Forum:</p>
+        <p> 1.Toxic Behaviour</p>
+        <p>2.Inappropriate Language</p>
+        <p>3.Bad-Mouthing others</p>
+        <p>4.No links to external websites(just internal pages)</p><br><br>
+        <p>If you understand the click Accept lets go😊😊😊</p>
+    
+          <button onclick="agreeAndClose()">Agree</button>
+        </div>
+      </div>
+  </footer>
+</body>
+</html>
